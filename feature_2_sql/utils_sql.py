@@ -4,10 +4,10 @@ import psycopg2
 def create_db():
     """ ПОдключаемся к базе данных и создаем таблицу с данными"""
     conn = psycopg2.connect(
-        host="host",
-        user="user",
-        password="password",
-        port="port"
+        host="localhost",
+        user="postgres",
+        password="qwertyuiop123#",
+        port="5432"
     )
 
     cursor = conn.cursor()
