@@ -1,10 +1,8 @@
 import psycopg2
-from utils_sql import create_db
 
 
 def sql_query_for_selection():
     """ Делаем выборку пользователей старше 30 лет и выводим их имена и возраст."""
-
 
     # Подключаемся к базе данных и открываем курсор
     conn = psycopg2.connect(

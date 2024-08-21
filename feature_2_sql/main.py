@@ -1,6 +1,7 @@
 from feature_2_sql.utils_sql import create_db
 from feature_2_sql.sql_script import sql_query_for_selection
 
+
 def main():
     """Основная функция для запуска нашего скрипта:
         1. создает таблицу в существующей базе данных PostgreSQL
