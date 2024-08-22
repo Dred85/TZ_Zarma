@@ -6,10 +6,10 @@ def sql_query_for_selection():
 
     # Подключаемся к базе данных и открываем курсор
     conn = psycopg2.connect(
-        host="host",
+        host="localhost",
         user="user",
         password="password",
-        port="port"
+        port="5432"
     )
 
     cursor = conn.cursor()
