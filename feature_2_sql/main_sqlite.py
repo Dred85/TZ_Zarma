@@ -23,15 +23,6 @@ def main():
 
     # Сохраняем изменения и закрываем соединение
     conn.commit()
-    conn.close()
-
-    ### 2. Скрипт для выборки пользователей старше 30 лет
-
-    import sqlite3
-
-    # Подключаемся к базе данных
-    conn = sqlite3.connect('example.db')
-    cursor = conn.cursor()
 
     # SQL-запрос для выбора всех пользователей старше 30 лет
     query = "SELECT name, age FROM users WHERE age > 30"
