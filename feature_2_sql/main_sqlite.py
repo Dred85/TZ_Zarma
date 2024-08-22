@@ -6,7 +6,7 @@ def main():
     # Подключаемся к базе данных (если она не существует, она будет создана)
 
     import sqlite3
-    conn = sqlite3.connect('example.db')
+    conn = sqlite3.connect('users_30.db')
     cursor = conn.cursor()
 
     # Создаем таблицу users
