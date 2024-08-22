@@ -5,8 +5,8 @@ def create_db():
     """ ПОдключаемся к базе данных и создаем таблицу с данными"""
     conn = psycopg2.connect(
         host="localhost",
-        user="postgres",
-        password="qwertyuiop123#",
+        user="user",
+        password="password",
         port="5432"
     )
 
