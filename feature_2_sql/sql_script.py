@@ -7,8 +7,8 @@ def sql_query_for_selection():
     # Подключаемся к базе данных и открываем курсор
     conn = psycopg2.connect(
         host="localhost",
-        user="postgres",
-        password="qwertyuiop123#",
+        user="user",
+        password="password",
         port="5432"
     )
 
